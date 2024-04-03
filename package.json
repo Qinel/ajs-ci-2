@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --coverage",
     "lint": "eslint .",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",

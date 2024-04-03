@@ -4,6 +4,6 @@ export const heroes = [
     { name: 'лучник', health: 80 },
   ];
   
-  export default function sortHeroes(units) {
+export default function sortHeroes(units) {
     return units.sort((a, b) => b.health - a.health);
-  }
+    }
